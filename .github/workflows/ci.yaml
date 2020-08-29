@@ -10,7 +10,7 @@ jobs:
     name: ci
     runs-on: ubuntu-latest
     container:
-      image: rust:lastest
+      image: rust
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
