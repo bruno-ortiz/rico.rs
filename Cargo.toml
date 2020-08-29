@@ -1,0 +1,14 @@
+[package]
+name = "rico-rs"
+version = "0.1.0"
+authors = ["Bruno Ortiz <brunortiz11@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/bruno-ortiz/rico.rs"
+readme = "README.md"
+
+
+[dependencies]
+reqwest = { version = "0.10.8", features = ["json", "cookies"] }
+serde="1.0.115"
+serde_json = "1.0.57"
+uuid = { version = "0.8.1", features = ["serde", "v4"] }
