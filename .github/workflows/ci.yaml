@@ -1,0 +1,18 @@
+name: ci
+
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+
+jobs:
+  test:
+    name: ci
+    runs-on: ubuntu-latest
+    container:
+      image: rust:lastest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Checks if project has no errors
+        run: cargo check
