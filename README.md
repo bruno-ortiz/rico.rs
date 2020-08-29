@@ -1,7 +1,7 @@
 # rico.rs
-A rico.com.vc http client.
-# rico.rs
-A [rico.com.vc](https://www.rico.com.vc/) http client written in rust.
+![ci](https://github.com/bruno-ortiz/rico.rs/workflows/ci/badge.svg?branch=master)
+
+[rico.com.vc](https://www.rico.com.vc/) http client written in rust.
 
 It's pretty straight forward to use. Just create a client by calling the login function.
 
